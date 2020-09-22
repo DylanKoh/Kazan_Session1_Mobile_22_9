@@ -151,7 +151,7 @@ namespace Kazan_Session1_Mobile_22_9
             else
             {
                 var newNNNN = int.Parse(getRelated.Split('/')[2]) + 1;
-                lblAssetSN.Text = $"{ddgg}/{newNNNN}";
+                lblAssetSN.Text = $"{ddgg}/{newNNNN.ToString().PadLeft(4, '0')}";
             }
         }
 

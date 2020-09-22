@@ -28,6 +28,7 @@ namespace Kazan_Session1_Mobile_22_9
             await LoadData();
             dpStart.Date = DateTime.Parse("1 Jan 2000");
             dpEnd.Date = DateTime.Parse("31 Dec 2100");
+            dpStart_DateSelected(null, null);
         }
 
         private async Task LoadData()
